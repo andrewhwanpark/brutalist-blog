@@ -12,42 +12,43 @@
     />
   </head>
   <body>
-    <div class="container">
-      <header class="masthead">
-        <h3 class="masthead-title">
-          <a href="/" title="Home">andrew</a>
-        </h3>
-        <ul class="nav">
-          <li><a href="/projects">Projects</a></li>
-          <li><a href="/talks">Talks</a></li>
-          <li><a href="/about">About</a></li>
-          <li>
-            <a
-              href="https://github.com/mdo/ama/issues/new"
-              rel="noreferrer"
-              target="_blank"
-              >Questions</a
-            >
-          </li>
-        </ul>
-      </header>
-      <div class="body">{{ content }}</div>
-      <div class="footer">
-        <p>
-          Be notified of new posts.
-          <a href="/atom.xml">Subscribe to the RSS feed.</a>
-        </p>
-        <p>
-          Ask me anything. Talk to me on
-          <a rel="noreferrer" href="https://twitter.com/mdo" target="_blank"
-            >Twitter</a
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
           >
-          or in
-          <a rel="noreferrer" href="https://github.com/mdo/ama" target="_blank"
-            >my AMA repo</a
-          >.
-        </p>
-      </div>
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="body">{{ content }}</div>
+
+      <footer class="footer mt-auto py-3 bg-light">
+        <div class="container">
+          <span class="text-muted">Place sticky footer content here.</span>
+        </div>
+      </footer>
     </div>
     <!-- JS for Bootstrap -->
     <script
