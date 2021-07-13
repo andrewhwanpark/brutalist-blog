@@ -3,18 +3,15 @@ layout: default
 ---
 
 <div class="archive">
-  {% for post in site.posts %}
-    {% assign currDate = post.date | date: "%Y" %}
-    {% if currDate != date %}
-      {% unless forloop.first %}</ul>{% endunless %}
-      <h2 class="archive-year">{{ currDate }}</h2>
-      <ul>
-      {% assign date = currDate %}
-    {% endif %}
-    <div class="archive-item">
-      <span class="post-date archive-date fs-4">{{ post.date | date: "%B %d, %Y" }}</span>
-      <a href="{{ post.url }}" class="archive-title fs-4">{{ post.title }}</a>
-    </div>
-    {% if forloop.last %}</ul>{% endif %}
+  {% for post in site.posts %} {% assign currDate = post.date | date: "%Y" %} {%
+  if currDate != date %}
+  <h2 class="archive-year">{{ currDate }}</h2>
+  {% assign date = currDate %} {% endif %}
+  <div class="archive-item">
+    <span class="post-date archive-date fs-4"
+      >{{ post.date | date: "%B %d, %Y" }}</span
+    >
+    <a href="{{ post.url }}" class="archive-title fs-4">{{ post.title }}</a>
+  </div>
   {% endfor %}
 </div>
