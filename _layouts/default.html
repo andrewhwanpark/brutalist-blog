@@ -1,1 +1,59 @@
-{{ content }}
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>Insert your title here</title>
+    <!-- Bootstrap -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header class="masthead">
+        <h3 class="masthead-title">
+          <a href="/" title="Home">andrew</a>
+        </h3>
+        <ul class="nav">
+          <li><a href="/projects">Projects</a></li>
+          <li><a href="/talks">Talks</a></li>
+          <li><a href="/about">About</a></li>
+          <li>
+            <a
+              href="https://github.com/mdo/ama/issues/new"
+              rel="noreferrer"
+              target="_blank"
+              >Questions</a
+            >
+          </li>
+        </ul>
+      </header>
+      <div class="body">{{ content }}</div>
+      <div class="footer">
+        <p>
+          Be notified of new posts.
+          <a href="/atom.xml">Subscribe to the RSS feed.</a>
+        </p>
+        <p>
+          Ask me anything. Talk to me on
+          <a rel="noreferrer" href="https://twitter.com/mdo" target="_blank"
+            >Twitter</a
+          >
+          or in
+          <a rel="noreferrer" href="https://github.com/mdo/ama" target="_blank"
+            >my AMA repo</a
+          >.
+        </p>
+      </div>
+    </div>
+    <!-- JS for Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
