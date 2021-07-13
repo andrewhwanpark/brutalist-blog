@@ -1,0 +1,14 @@
+<nav class="navbar navbar-expand navbar-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">@mdo</a>
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav me-auto">
+        {% for item in site.data.navigation %}
+          <li class="nav-item">
+            <a href="{{ item.link }}" {% if page.url == item.link %} class="nav-link active" {% else %} class="nav-link" {% endif %}>{{ item.name }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</nav>
