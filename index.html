@@ -12,8 +12,8 @@ layout: default
       {% assign date = currDate %}
     {% endif %}
     <div class="archive-item">
-      <span class="post-date archive-date">{{ post.date | date: "%b %d, %y" }}</span>
-      <a href="{{ post.url }}" class="archive-title">{{ post.title }}</a>
+      <span class="post-date archive-date fs-4">{{ post.date | date: "%B %d, %Y" }}</span>
+      <a href="{{ post.url }}" class="archive-title fs-4">{{ post.title }}</a>
     </div>
     {% if forloop.last %}</ul>{% endif %}
   {% endfor %}
