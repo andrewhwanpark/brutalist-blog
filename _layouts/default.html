@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en-us" class="h-100">
   <head>
     <title>Insert your title here</title>
     <!-- Bootstrap -->
@@ -13,17 +13,12 @@
     <!-- Custom stylesheet -->
     <link rel="stylesheet" href="/assets/css/styles.css" />
   </head>
-  <body>
-    <div class="container-fluid">
+  <body class="h-100">
+    <div class="container wrap">
       {% include navigation.html %}
       <div class="body">{{ content }}</div>
-
-      <footer class="footer mt-auto py-3 bg-light">
-        <div class="container">
-          <span class="text-muted">Place sticky footer content here.</span>
-        </div>
-      </footer>
     </div>
+    {% include footer.html %}
     <!-- JS for Bootstrap -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
