@@ -3,6 +3,16 @@
 #
 
 # Name of your site (displayed in the navbar)
-name: bootstrap
+name: brutalist
 
-permalink: /:title
+permalink: /:year/:month/:day/:title/
+
+# Includes an icon in the footer for each username you enter
+footer-links:
+  email: mkie0125@gmail.com
+  facebook:
+  github: barryclark/jekyll-now
+  instagram: andrewhwanpark
+  linkedin: andrewhwanpark
+  rss: # just type anything here for a working RSS icon
+  twitter: andrewhwanpark
