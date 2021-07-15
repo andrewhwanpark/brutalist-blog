@@ -4,6 +4,9 @@
     <title>Insert your title here</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- The page supports both dark and light color schemes,
+         and the page author prefers / default is light. -->
+    <meta name="color-scheme" content="dark light" />
     <!-- Bootstrap Dark Mode -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap-dark-5@1.0.2/dist/css/bootstrap-dark.min.css"
@@ -11,6 +14,20 @@
     />
     <!-- Custom stylesheet -->
     <link rel="stylesheet" href="/assets/css/styles.css" />
+    <!-- Meta Theme Color is also supported on Safari and Chrome -->
+    <meta
+      name="theme-color"
+      content="#eeeeee"
+      media="(prefers-color-scheme: dark)"
+    />
+    <meta
+      name="theme-color"
+      content="#111111"
+      media="(prefers-color-scheme: light)"
+    />
+    <!-- Start Jekyll SEO tag -->
+    {% seo %}
+    <!-- End Jekyll SEO tag -->
   </head>
   <body class="h-100">
     <div class="container wrap-for-sticky-footer">
