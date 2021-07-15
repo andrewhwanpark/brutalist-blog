@@ -1,5 +1,5 @@
 {% if site.footer-links.email %}
-<a href="mailto:{{ site.footer-links.email }}">
+<a class="footer-icon-links" href="mailto:{{ site.footer-links.email }}">
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="16"
@@ -14,7 +14,9 @@
   </svg>
 </a>
 {% endif %} {% if site.footer-links.instagram %}
-<a href="https://instagram.com/{{ site.footer-links.instagram }}"
+<a
+  class="footer-icon-links"
+  href="https://instagram.com/{{ site.footer-links.instagram }}"
   ><svg
     xmlns="http://www.w3.org/2000/svg"
     width="16"
@@ -28,7 +30,9 @@
     /></svg
 ></a>
 {% endif %} {% if site.footer-links.twitter %}
-<a href="https://www.twitter.com/{{ site.footer-links.twitter }}"
+<a
+  class="footer-icon-links"
+  href="https://www.twitter.com/{{ site.footer-links.twitter }}"
   ><svg
     xmlns="http://www.w3.org/2000/svg"
     width="16"
@@ -42,7 +46,9 @@
     /></svg
 ></a>
 {% endif %} {% if site.footer-links.facebook %}
-<a href="https://www.facebook.com/{{ site.footer-links.facebook }}"
+<a
+  class="footer-icon-links"
+  href="https://www.facebook.com/{{ site.footer-links.facebook }}"
   ><svg
     xmlns="http://www.w3.org/2000/svg"
     width="16"
@@ -56,7 +62,9 @@
     /></svg
 ></a>
 {% endif %} {% if site.footer-links.github %}
-<a href="https://github.com/{{ site.footer-links.github }}"
+<a
+  class="footer-icon-links"
+  href="https://github.com/{{ site.footer-links.github }}"
   ><svg
     xmlns="http://www.w3.org/2000/svg"
     width="16"
@@ -70,7 +78,9 @@
     /></svg
 ></a>
 {% endif %} {% if site.footer-links.linkedin %}
-<a href="https://www.linkedin.com/in/{{ site.footer-links.linkedin }}"
+<a
+  class="footer-icon-links"
+  href="https://www.linkedin.com/in/{{ site.footer-links.linkedin }}"
   ><svg
     xmlns="http://www.w3.org/2000/svg"
     width="16"
@@ -84,7 +94,7 @@
     /></svg
 ></a>
 {% endif %} {% if site.footer-links.rss %}
-<a href="{{ site.baseurl }}/feed.xml"
+<a class="footer-icon-links" href="{{ site.baseurl }}/feed.xml"
   ><svg
     xmlns="http://www.w3.org/2000/svg"
     width="16"
