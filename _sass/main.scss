@@ -1,6 +1,11 @@
 .navbar {
   margin-bottom: 2rem;
-  border-bottom: 0.125rem solid;
+  border-bottom: 0.125rem solid hsl(0, 0%, 30%);
+}
+
+.archive-year {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 
 .archive-date {
@@ -24,4 +29,21 @@
   width: 1.25rem;
   height: 1.25rem;
   margin-right: 0.5rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  .footer-icon-links {
+    text-decoration: none;
+    color: #e1e1e1;
+  }
+
+  .footer-icon-links:hover,
+  .footer-icon-links:focus {
+    text-decoration: none;
+    color: #e1e1e1;
+  }
+
+  .archive-title {
+    color: #e1e1e1;
+  }
 }
