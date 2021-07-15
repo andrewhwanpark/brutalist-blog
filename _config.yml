@@ -3,7 +3,7 @@
 #
 
 # Name of your site (displayed in the navbar)
-name: brutalist
+name: dark-bootstrap
 
 permalink: /:year/:month/:day/:title/
 
