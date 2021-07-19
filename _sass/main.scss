@@ -1,3 +1,15 @@
+table {
+  @extend .table;
+}
+
+blockquote {
+  @extend .blockquote;
+}
+
+img {
+  @extend .img-fluid;
+}
+
 .navbar {
   margin-bottom: 2rem;
   border-bottom: 0.125rem solid hsl(0, 0%, 30%);
@@ -31,6 +43,25 @@
   margin-right: 0.5rem;
 }
 
+.footer-icon-links {
+  text-decoration: none;
+  color: #212529;
+}
+
+.footer-icon-links:hover,
+.footer-icon-links:focus {
+  text-decoration: none;
+  color: #212529;
+}
+
+.archive-title {
+  color: #212529;
+}
+
+pre.highlight {
+  padding: 1rem;
+}
+
 @media (prefers-color-scheme: dark) {
   .footer-icon-links {
     text-decoration: none;
@@ -45,5 +76,9 @@
 
   .archive-title {
     color: #e1e1e1;
+  }
+
+  .highlight {
+    background-color: #272822;
   }
 }
