@@ -24,7 +24,7 @@ url: https://andrewhwanpark.github.io/minimal-bootstrap-blog/
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
-baseurl: "/minimal-bootstrap-blog"
+baseurl: /minimal-bootstrap-blog
 
 # global author information
 author: andrew-park

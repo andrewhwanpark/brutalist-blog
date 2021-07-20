@@ -11,7 +11,9 @@ layout: default
     <span class="post-date archive-date fs-4"
       >{{ post.date | date: "%B %d, %Y" }}</span
     >
-    <a href="{{ post.url }}" class="archive-title fs-4">{{ post.title }}</a>
+    <a href="{{ post.url | relative_url }}" class="archive-title fs-4"
+      >{{ post.title }}</a
+    >
   </div>
   {% endfor %}
 </div>
