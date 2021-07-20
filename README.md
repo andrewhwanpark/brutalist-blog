@@ -14,6 +14,11 @@ minimal-bootstrap-blog is a no frills, fully-responsive, hyper-minimalistic dark
 - Easy integration with Google Analytics.
 - Generates XML sitemap and RSS Atom feed.
 - jekyll-seo-tag to add metadata tags for search engines and social networks to better index and display your site's content.
+- Full markdown support: code blocks and tables are automatically bootstrap components.
+
+![code blocks](https://user-images.githubusercontent.com/13270895/126393675-dacc65f1-7dd2-4651-ae2b-0e77eda7cd11.png)
+
+![tables](https://user-images.githubusercontent.com/13270895/126393680-7b7fae57-abd0-4843-a9a1-c4f334b5eaa4.png)
 
 ## Installation
 
