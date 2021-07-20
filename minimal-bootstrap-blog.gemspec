@@ -4,7 +4,7 @@ Gem::Specification.new do |spec|
   spec.name          = "minimal-bootstrap-blog"
   spec.version       = "0.1.0"
   spec.authors       = ["Andrew Park"]
-  spec.email         = ["hp1141@stern.nyu.edu"]
+  spec.email         = ["hwanp@andrew.cmu.edu"]
 
   spec.summary       = "Jekyll theme based on Mark Otto's personal site"
   spec.homepage      = "https://github.com/andrewhwanpark/minimal-bootstrap-blog"
