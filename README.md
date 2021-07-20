@@ -65,7 +65,7 @@ For a more detailed guide, visit this guide by Github: https://docs.github.com/e
 
 ### First things first: \_config.yml
 
-First, you should change data in \_config.yml to the appropriate information such as your social links for the footer icons.
+First, you should change data in \_config.yml to the appropriate information such as your social links for the footer icons, avatar for navbar logo, title and name of the site, and more crucial information.
 
 ### Adding content
 
