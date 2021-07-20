@@ -9,6 +9,7 @@
 minimal-bootstrap-blog is a no frills, fully-responsive, hyper-minimalistic dark/light theme made with bootstrap-dark-5: https://github.com/vinorodrigues/bootstrap-dark-5. The theme is heavily inspired by Mark Otto's personal site: https://markdotto.com/
 
 Demo: https://andrewhwanpark.github.io/minimal-bootstrap-blog/
+
 My personal site that uses the same theme: https://andrewhwanpark.github.io/
 
 #### Features
