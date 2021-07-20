@@ -23,6 +23,9 @@ author: Andrew Park
 # URL to a site-wide logo (e.g., /assets/your-company-logo.png)
 logo: /assets/images/bootstrap_logo.svg
 
+# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
+google_analytics:
+
 permalink: /:year/:month/:day/:title/
 
 # Includes an icon in the footer for each username you enter
