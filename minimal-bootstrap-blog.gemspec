@@ -3,7 +3,7 @@
 Gem::Specification.new do |spec|
   spec.name          = "minimal-bootstrap-blog"
   spec.version       = "0.1.0"
-  spec.authors       = ["Andrew Park"]
+  spec.authors       = ["andrewhwanpark"]
   spec.email         = ["hwanp@andrew.cmu.edu"]
 
   spec.summary       = "Jekyll minimalist theme based on bootstrap-dark for blogs"
