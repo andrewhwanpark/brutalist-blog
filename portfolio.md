@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Portfolio
-permalink: /portfolio
+permalink: /portfolio/
 ---
 
 ### This is your portfolio
