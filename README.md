@@ -8,6 +8,9 @@
 
 minimal-bootstrap-blog is a no frills, fully-responsive, hyper-minimalistic dark/light theme made with bootstrap-dark-5: https://github.com/vinorodrigues/bootstrap-dark-5. The theme is heavily inspired by Mark Otto's personal site: https://markdotto.com/
 
+Demo: https://andrewhwanpark.github.io/minimal-bootstrap-blog/
+My personal site that uses the same theme: https://andrewhwanpark.github.io/
+
 #### Features
 
 - Automatically changes from dark/light modes depending on the OS settings.
@@ -52,7 +55,7 @@ For local development:
 
     $ bundle exec jekyll serve
 
-Now, you can publish the site. Under your repository name, click Settings.
+After tweaking with it, you can publish the site. Under your repository name, click Settings.
 
 ![tutorial](https://docs.github.com/assets/images/help/repository/repo-actions-settings.png)
 
