@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 Gem::Specification.new do |spec|
-  spec.name          = "mark-otto-theme"
+  spec.name          = "minimal-bootstrap-blog"
   spec.version       = "0.1.0"
   spec.authors       = ["Andrew Park"]
   spec.email         = ["hp1141@stern.nyu.edu"]
