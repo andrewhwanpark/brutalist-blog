@@ -58,6 +58,10 @@ img {
   color: #212529;
 }
 
+.highlight {
+  background-color: #272822;
+}
+
 pre.highlight {
   padding: 1rem;
 }
@@ -76,9 +80,5 @@ pre.highlight {
 
   .archive-title {
     color: #e1e1e1;
-  }
-
-  .highlight {
-    background-color: #272822;
   }
 }
