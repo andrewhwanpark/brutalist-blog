@@ -10,8 +10,11 @@
     <!-- The page supports both dark and light color schemes, and the page author prefers / default is light. -->
     <meta name="color-scheme" content="dark light" />
     <!-- Stylesheet that includes Bootstrap dark mode & custom stylesheet -->
-    <link rel="stylesheet" href="/assets/css/styles.css" />
-    <link rel="icon" href="/assets/images/favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="{{ '/assets/css/styles.css' | relative_url }}"
+    />
+    <link rel="icon" href="{{ '/assets/images/favicon.ico' | relative_url }}" />
     <!-- Meta Theme Color is also supported on Safari and Chrome -->
     <meta
       name="theme-color"
