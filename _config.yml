@@ -18,7 +18,7 @@ description: minimal bootstrap theme for Jekyll blogs
 url:
 
 # global author information
-author: Andrew Park
+author: andrew-park
 
 # URL to a site-wide logo (e.g., /assets/your-company-logo.png)
 logo: /assets/images/bootstrap_logo.svg
@@ -41,3 +41,4 @@ footer-links:
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-feed
