@@ -1,7 +1,5 @@
 # frozen_string_literal: true
 
-gem "minimal-bootstrap-blog", :git => "git://github.com/andrewhwanpark/minimal-bootstrap-blog.git"
-
 source "https://rubygems.org"
 gemspec
 
