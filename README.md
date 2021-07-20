@@ -1,49 +1,85 @@
 # minimal-bootstrap-blog
 
-Welcome to your new Jekyll theme! In this directory, you'll find the files you need to be able to package up your theme into a gem. Put your layouts in `_layouts`, your includes in `_includes`, your sass files in `_sass` and any other assets in `assets`.
+## Introduction
 
-To experiment with this code, add some sample content and run `bundle exec jekyll serve` – this directory is setup just like a Jekyll site!
+![minimal-bootstrap-blog dark mode homepage](https://user-images.githubusercontent.com/13270895/126380100-f61f3464-1604-486c-89ac-5a7b98fe3ce7.png)
+![minimal-bootstrap-blog light mode homepage](https://user-images.githubusercontent.com/13270895/126380111-35619141-0e9d-4780-a2c9-1c8992497f56.png)
+![minimal-bootstrap-blog mobile homepages](https://user-images.githubusercontent.com/13270895/126383023-8fa01fd7-544b-459d-956e-4a67a735758b.png)
 
-TODO: Delete this and the text above, and describe your gem
+minimal-bootstrap-blog is a no frills, fully-responsive, hyper-minimalistic dark/light theme made with bootstrap-dark-5: https://github.com/vinorodrigues/bootstrap-dark-5. The theme is heavily inspired by Mark Otto's personal site: https://markdotto.com/
+
+#### Features
+
+- Automatically changes from dark/light modes depending on the OS settings.
+- Easy integration with Google Analytics.
+- Generates XML sitemap and RSS Atom feed.
+- jekyll-seo-tag to add metadata tags for search engines and social networks to better index and display your site's content.
 
 ## Installation
 
-Add this line to your Jekyll site's `Gemfile`:
+Clone this repo:
 
-```ruby
-gem "minimal-bootstrap-blog"
-```
+    $ git clone https://github.com/andrewhwanpark/minimal-bootstrap-blog.git
 
-And add this line to your Jekyll site's `_config.yml`:
+If you haven't already, install bundler:
 
-```yaml
-theme: minimal-bootstrap-blog
-```
+    $ gem install bundler
 
 And then execute:
 
-    $ bundle
+    $ bundle install
 
-Or install it yourself as:
+Serve the site:
 
-    $ gem install minimal-bootstrap-blog
+    $ bundle exec jekyll serve
+
+# Installation with Github Pages
+
+After cloning the repo, checkout to the gh-pages branch.
+
+    $ git checkout gh-pages && git pull
+
+In the directory:
+
+    $ bundle install
+
+For local development:
+
+    $ bundle exec jekyll serve
+
+Now, you can publish the site. Under your repository name, click Settings.
+
+![tutorial](https://docs.github.com/assets/images/help/repository/repo-actions-settings.png)
+
+In the left sidebar, click Pages.
+
+![tutorial 2](https://docs.github.com/assets/images/help/pages/pages-tab.png)
+
+To see your published site, under "GitHub Pages", click your site's URL.
+
+![tutorial 3](https://docs.github.com/assets/images/help/pages/click-pages-url-to-preview.png)
+
+For a more detailed guide, visit this guide by Github: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll
 
 ## Usage
 
-TODO: Write usage instructions here. Describe your available layouts, includes, sass and/or assets.
+### First things first: \_config.yml
+
+First, you should change data in \_config.yml to the appropriate information such as your social links for the footer icons.
+
+### Adding content
+
+In order to add permanent pages, add in similar fashion to about.md and portfolio.md and add apppropriate data to \_data/navigation.yml.
+
+In order to add blog posts, add in similar fashion to \_posts/2021-07-16-this-post-demonstrates-post-content-styles.md.
+
+### Custom style changes
+
+If you wish to add custom styling through SCSS or CSS, you can add or edit \_sass/main.scss.
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/hello. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
-
-## Development
-
-To set up your environment to develop this theme, run `bundle install`.
-
-Your theme is setup just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
-
-When your theme is released, only the files in `_layouts`, `_includes`, `_sass` and `assets` tracked with Git will be bundled.
-To add a custom directory to your theme-gem, please edit the regexp in `minimal-bootstrap-blog.gemspec` accordingly.
+Bug reports and pull requests are welcome on GitHub at https://github.com/andrewhwanpark/minimal-bootstrap-blog.
 
 ## License
 
