@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html lang="en-us" class="h-100">
   <head>
-    <title>Insert your title here</title>
+    <title>
+      {% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{
+      site.description }}
+    </title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- The page supports both dark and light color schemes,
@@ -20,9 +23,7 @@
       content="#111111"
       media="(prefers-color-scheme: light)"
     />
-    <!-- Start Jekyll SEO tag -->
     {% seo %}
-    <!-- End Jekyll SEO tag -->
   </head>
   <body class="h-100">
     <div class="container wrap-for-sticky-footer">
