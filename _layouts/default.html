@@ -23,7 +23,7 @@
       content="#111111"
       media="(prefers-color-scheme: light)"
     />
-    {% seo %} {%- if jekyll.environment == 'production' and
+    {% seo %} {% feed_meta %} {%- if jekyll.environment == 'production' and
     site.google_analytics -%} {%- include google-analytics.html -%} {%- endif
     -%}
   </head>
