@@ -86,6 +86,10 @@ In order to add blog posts, add in similar fashion to \_posts/2021-07-16-this-po
 
 If you wish to add custom styling through SCSS or CSS, you can add or edit \_sass/main.scss.
 
+### Custom domains with Github Pages
+
+Follow this simple guide: https://medium.com/@xiang_zhou/how-to-add-custom-domain-to-your-jekyll-blog-provided-that-you-built-your-site-using-github-6e1c8bf20afe
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/andrewhwanpark/minimal-bootstrap-blog.
