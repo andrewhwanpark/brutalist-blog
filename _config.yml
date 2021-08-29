@@ -3,10 +3,10 @@
 #
 
 # Name of your site (displayed in the navbar)
-name: minimal-bootstrap-blog
+name: brutalist-blog
 
 # Your site's title (e.g., Ben's Awesome Site, The GitHub Blog, etc.), used as part of the title tag like Home | Ben's Awesome Site.
-title: minimal-bootstrap-blog
+title: brutalist-blog
 
 # Link to avatar in the navbar (/assets/images/avatar.png). Leave empty if no logo desired. Two avatars for light and dark mode.
 # Avatar for light mode site
@@ -44,7 +44,7 @@ permalink: /:year/:month/:day/:title/
 footer-links:
   email: mkie0125@gmail.com
   facebook:
-  github: andrewhwanpark/minimal-bootstrap-blog
+  github: andrewhwanpark/brutalist-blog
   instagram: andrewhwanpark
   linkedin: andrewhwanpark
   rss: # just type anything here for a working RSS icon
