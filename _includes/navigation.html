@@ -1,9 +1,9 @@
 <nav class="navbar navbar-expand-lg navbar-light">
   <div class="container-fluid">
-    <a class="navbar-brand" href="{{ '/' | relative_url }}">
+    <a class="navbar-brand p-0" href="{{ '/' | relative_url }}">
     {% if site.lightavatar or site.darkavatar %}
-    <img src="{{ site.lightavatar | relative_url }}" alt="light avatar" width="30" height="24"  class="d-inline-block align-text-middle m-0 avatar light-avatar">
-    <img src="{{ site.darkavatar | relative_url }}" alt="dark avatar" width="30" height="24" class="d-inline-block align-text-middle m-0 avatar dark-avatar">
+    <img src="{{ site.lightavatar | relative_url }}" alt="light avatar" width="30" class="d-inline-block align-top m-0 light-avatar">
+    <img src="{{ site.darkavatar | relative_url }}" alt="dark avatar" width="30" class="d-inline-block align-top m-0 dark-avatar">
     {% endif %}
       {{ site.name }}</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
