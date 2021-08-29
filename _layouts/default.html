@@ -30,8 +30,8 @@
     site.google_analytics -%} {%- include google-analytics.html -%} {%- endif
     -%}
   </head>
-  <body class="h-100">
-    <div class="container wrap-for-sticky-footer">
+  <body class="d-flex flex-column h-100">
+    <div class="container">
       {% include navigation.html %}
       <div class="body">{{ content }}</div>
     </div>
