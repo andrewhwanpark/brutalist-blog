@@ -2,11 +2,11 @@
 
 ## Introduction
 
-![brutalist-blog dark mode homepage](https://user-images.githubusercontent.com/13270895/126380100-f61f3464-1604-486c-89ac-5a7b98fe3ce7.png)
-![brutalist-blog light mode homepage](https://user-images.githubusercontent.com/13270895/126380111-35619141-0e9d-4780-a2c9-1c8992497f56.png)
-![brutalist-blog mobile homepages](https://user-images.githubusercontent.com/13270895/126383023-8fa01fd7-544b-459d-956e-4a67a735758b.png)
+![brutalist-blog dark mode homepage](https://user-images.githubusercontent.com/13270895/131266947-65f2ae83-7d9e-48d7-8cd6-05a1d59df0ab.png)
+![brutalist-blog light mode homepage](https://user-images.githubusercontent.com/13270895/131266950-3a0e0eff-0b15-4f60-ba22-231bcd78fb0c.png)
+![brutalist-blog mobile homepages](https://user-images.githubusercontent.com/13270895/131266952-e245630a-9874-4bde-952c-3c63ebd745e0.png)
 
-brutalist-blog is a no frills, fully-responsive, hyper-minimalistic dark/light theme made with bootstrap-dark-5: https://github.com/vinorodrigues/bootstrap-dark-5. The theme is heavily inspired by Mark Otto's personal site: https://markdotto.com/
+brutalist-blog is a no frills, fully-responsive, hyper-minimalistic dark/light theme. The theme is heavily inspired by Mark Otto's personal site: https://markdotto.com/
 
 Demo: https://andrewhwanpark.github.io/brutalist-blog/
 
