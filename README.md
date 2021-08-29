@@ -1,14 +1,14 @@
-# minimal-bootstrap-blog
+# brutalist-blog
 
 ## Introduction
 
-![minimal-bootstrap-blog dark mode homepage](https://user-images.githubusercontent.com/13270895/126380100-f61f3464-1604-486c-89ac-5a7b98fe3ce7.png)
-![minimal-bootstrap-blog light mode homepage](https://user-images.githubusercontent.com/13270895/126380111-35619141-0e9d-4780-a2c9-1c8992497f56.png)
-![minimal-bootstrap-blog mobile homepages](https://user-images.githubusercontent.com/13270895/126383023-8fa01fd7-544b-459d-956e-4a67a735758b.png)
+![brutalist-blog dark mode homepage](https://user-images.githubusercontent.com/13270895/126380100-f61f3464-1604-486c-89ac-5a7b98fe3ce7.png)
+![brutalist-blog light mode homepage](https://user-images.githubusercontent.com/13270895/126380111-35619141-0e9d-4780-a2c9-1c8992497f56.png)
+![brutalist-blog mobile homepages](https://user-images.githubusercontent.com/13270895/126383023-8fa01fd7-544b-459d-956e-4a67a735758b.png)
 
-minimal-bootstrap-blog is a no frills, fully-responsive, hyper-minimalistic dark/light theme made with bootstrap-dark-5: https://github.com/vinorodrigues/bootstrap-dark-5. The theme is heavily inspired by Mark Otto's personal site: https://markdotto.com/
+brutalist-blog is a no frills, fully-responsive, hyper-minimalistic dark/light theme made with bootstrap-dark-5: https://github.com/vinorodrigues/bootstrap-dark-5. The theme is heavily inspired by Mark Otto's personal site: https://markdotto.com/
 
-Demo: https://andrewhwanpark.github.io/minimal-bootstrap-blog/
+Demo: https://andrewhwanpark.github.io/brutalist-blog/
 
 My personal site that uses the same theme: https://andrewhwanpark.github.io/
 
@@ -28,7 +28,7 @@ My personal site that uses the same theme: https://andrewhwanpark.github.io/
 
 Clone this repo:
 
-    $ git clone https://github.com/andrewhwanpark/minimal-bootstrap-blog.git
+    $ git clone https://github.com/andrewhwanpark/brutalist-blog.git
 
 If you haven't already, install bundler:
 
@@ -92,7 +92,7 @@ Follow this simple guide: https://medium.com/@xiang_zhou/how-to-add-custom-domai
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/andrewhwanpark/minimal-bootstrap-blog.
+Bug reports and pull requests are welcome on GitHub at https://github.com/andrewhwanpark/brutalist-blog.
 
 ## License
 
